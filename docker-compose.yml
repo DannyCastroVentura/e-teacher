@@ -1,0 +1,27 @@
+services:
+    db:
+        container_name: db
+        image: dannycastroventura/db:latest
+        ports:
+            - 5433:5432
+        restart: always
+        environment:
+            POSTGRES_PASSWORD: 123
+    
+    serverapi:
+        container_name: serverapi
+        image: dannycastroventura/serverapi:latest
+        ports:
+            - 8080:8080
+        depends_on:
+            - db
+    
+    
+    webApp:
+        container_name: webapp
+        image: dannycastroventura/webapp:latest
+        ports:
+            - 3000:3000
+        depends_on:
+            - db
+            - serverapi
