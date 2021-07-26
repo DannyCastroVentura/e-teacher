@@ -12,7 +12,7 @@ Data base server:
 https://github.com/DannyCastroVentura/db-dockerfile-e-teacher
 
 <br><br>
-Run all servers in one computer:
+To run all servers in one computer:
 <br><br>
 Go to the same directory as the docker-compose.yml file and run "docker-compose up" command.
 
