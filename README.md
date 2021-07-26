@@ -1,20 +1,30 @@
 # E-Teacher
 
-All E-Teacher servers
+All E-Teacher servers:
 
-Webapp server:
-https://github.com/DannyCastroVentura/webapp-Dockerfile-E-Teacher
-
-Rest api server:
-https://github.com/DannyCastroVentura/serverApi-E-Teacher
-
-Data base server:
-https://github.com/DannyCastroVentura/db-dockerfile-e-teacher
+<lu>
+  <li>
+    Webapp server:
+    https://github.com/DannyCastroVentura/webapp-Dockerfile-E-Teacher
+  </li>
+  <li>
+    Rest api server:
+    https://github.com/DannyCastroVentura/serverApi-E-Teacher
+  </li>
+  <li>
+    Data base server:
+    https://github.com/DannyCastroVentura/db-dockerfile-e-teacher
+  </li>
+</lu>
 
 <br><br>
 To run all servers in one computer:
-<br><br>
-Go to the same directory as the docker-compose.yml file and run "docker-compose up" command.
+
+<lu>
+  <li>
+    Go to the same directory as the docker-compose.yml file and run "docker-compose up" command.
+  </li>
+</lu>
 
 <br><br>
 Needs manual:
