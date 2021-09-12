@@ -1,5 +1,6 @@
 # E-Teacher
 
+
 All E-Teacher servers:
 
 <lu>
@@ -32,3 +33,14 @@ Needs manual:
   <li>Be windows (in this project there was no need to make it runnable in other OS); </li>
   <li>Have docker desktop installed (to run the "docker-compose up" command). </li>
 </lu>
+
+<br><br>
+Sample video: <br>
+<lu>
+  <li>
+    https://alumniual-my.sharepoint.com/:v:/g/personal/30002840_students_ual_pt/ESo8XcQdHaRNq6Gx37f_Y6wByzNhvlWoDPgOXTehbOmceA?e=IUaWmM
+  </li>
+</lu>
+  
+<br>
+<br>
