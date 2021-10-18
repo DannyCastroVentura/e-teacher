@@ -1,7 +1,7 @@
 services:
     db:
         container_name: db
-        image: dannycastroventura/db:latest
+        image: dannycastroventura/db
         ports:
             - 5433:5432
         restart: always
@@ -10,7 +10,7 @@ services:
     
     serverapi:
         container_name: serverapi
-        image: dannycastroventura/serverapi:latest
+        image: dannycastroventura/serverapi
         ports:
             - 8080:8080
         depends_on:
@@ -19,7 +19,7 @@ services:
     
     webApp:
         container_name: webapp
-        image: dannycastroventura/webapp:latest
+        image: dannycastroventura/webapp
         ports:
             - 3000:3000
         depends_on:
